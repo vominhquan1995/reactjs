@@ -21,7 +21,7 @@
     "dotenv": "^4.0.0",
     "express": "^4.16.2",
     "iframe-resizer": "^3.5.15",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "lodash": "^4.17.4",
     "moment": "^2.20.1",
     "next": "^4.2.1",
