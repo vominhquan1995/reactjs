@@ -1,0 +1,118 @@
+@media only screen and (max-width: 320px) {
+    .intro-section h1 {
+        text-align: center;
+        font-size: 26px !important;
+        font-weight: 800 !important;
+        color: black !important;
+        margin-bottom: 1.5rem !important;
+        line-height: 29px !important;
+        margin-bottom: 8px !important;
+        font-family: ProximaNova-Extrabold !important;
+    }
+    .form-box {
+        padding-top: 10px !important;
+    }
+    .form-box h3 {
+        margin-bottom: 14px !important;
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        overflow-y: hidden;
+    }
+    .site-logo img {
+        width: 190px !important;
+    }
+    .site-logo {
+        text-align: center;
+        padding-left: 0 !important; 
+    }
+    header:first-child{
+        padding-left: 0 !important;
+    }
+    .intro-section h1 {
+        text-align: center;
+        font-size: 27px !important;
+        font-weight: 800 !important;
+        color: black !important;
+        margin-bottom: 1.5rem !important;
+        line-height: 29px !important;
+        margin-bottom: 8px !important;
+        font-family: ProximaNova-Extrabold !important;
+    }
+    .full {
+        margin-left: 0 !important;
+    }
+    .form-box {
+        padding-top: 30px;
+    }
+    .form-group input {
+        width: 100% !important;
+    }
+    .btn-dang-ky {
+        width: 100% !important;
+    }
+    .sub-title p {
+        width: 100% !important;
+    }
+    .img-ui {
+        display: none !important
+    }
+    .intro-section p {
+        color: black;
+        font-size: 0.9em !important;
+    }
+}
+
+@media only screen and (min-width: 577px)and (max-width: 992px) {
+    body {
+        overflow-y: hidden;
+    }
+    .img-ui {
+        display: none !important
+    }
+    .form-box {
+        padding-top: 40px !important;
+    }
+    .intro-section h1 {
+        text-align: left;
+        font-size: 35px !important;
+        font-weight: 800 !important;
+        color: black !important;
+        margin-bottom: 1.5rem !important;
+        line-height: 45px !important;
+        margin-bottom: 8px !important;
+        font-family: ProximaNova-Extrabold !important;
+    }
+}
+
+@media only screen and (min-width: 993px)and (max-width: 1280px) {
+    body {
+        /* overflow-y: hidden; */
+    }
+    .site-logo img {
+        width: 120px !important;
+    }
+    .form-box {
+        padding-top: 40px !important;
+    }
+    .intro-section {
+        padding: 20px;
+        margin:  50px;
+    }
+    .intro-section h1 {
+        text-align: left;
+        font-size: 35px !important;
+        font-weight: 800 !important;
+        color: black !important;
+        margin-bottom: 1.5rem !important;
+        line-height: 45px !important;
+        margin-bottom: 8px !important;
+        font-family: ProximaNova-Extrabold !important;
+    }
+    .img-ui{
+        width: 500px !important;
+    }
+}

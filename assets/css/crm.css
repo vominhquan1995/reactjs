@@ -1,0 +1,603 @@
+@font-face {
+  font-family: ProximaNova-Extrabold;
+  src: url('../fonts/FontsFree-Net-ProximaNova-Extrabld.ttf');
+}
+
+@font-face {
+  font-family: ProximaNova-Regular;
+  src: url('../fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf');
+}
+
+@font-face {
+  font-family: ProximaNova-Bold;
+  src: url('../fonts/ProximaNova-Bold.ttf');
+}
+
+@font-face {
+  font-family: ProximaNova-Semibold;
+  src: url('../fonts/ProximaNova-Semibold.ttf');
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.mid {
+  padding: 0px 0 300px;
+  position: relative;
+}
+
+.head {
+  text-align: left;
+}
+
+.head img {
+  padding: 0 10px 0 5px;
+}
+
+/* .banner {
+  padding-top: 48px;
+  max-width: 1120px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+} */
+
+.banner {
+  padding-top: 39px;
+  max-width: 1120px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+.form_phai h3 {
+  font-family: ProximaNova-Bold;
+  color: #000!important;
+  text-align: left!important;
+  text-transform: unset!important;
+  font-size: 22px;
+  padding-bottom: 2px;
+}
+
+.form_phai hr {
+  border-top: px dashed #000;
+  /* margin-right: 10%;
+    margin-left: 10%;
+    color: black;
+    background: black; */
+  margin-bottom: 20px;
+}
+
+.line2 {
+  margin: 16px 0;
+  height: 1px;
+  background: repeating-linear-gradient(to right, #cdcdcd 0, #cdcdcd 10px, transparent 10px, transparent 12px);
+  /*10px red then 2px transparent -> repeat this!*/
+  margin-bottom: 20px;
+}
+
+.form_phai .form-control {
+  height: 50px !important;
+  border-radius: 0 !important;
+  border: 1px solid #e5e5e5;
+}
+
+.form-tieu-de {
+  font-size: 15px;
+  font-family: ProximaNova-Bold;
+}
+
+.tieu_de {
+  font-size: 63px;
+  line-height: 70px;
+  font-family: ProximaNova-Extrabold;
+  padding-bottom: 15px;
+}
+
+.mo_ta {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 30px;
+  font-family: ProximaNova-Regular;
+}
+
+.form_phai .form-group {
+  margin-bottom: 10px !important;
+}
+
+.form-ct {
+  margin-bottom: 10px !important;
+  font-size: 12px
+}
+
+.btn-dangky {
+  position: relative !important;
+  display: inline-block !important;
+  font-size: 16px !important;
+  line-height: 50px !important;
+  padding: 0 60px !important;
+  background: #f0483e !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  transition: all .5s ease 0s !important;
+  margin: 0 !important;
+  color: #fff !important;
+  border: none !important;
+  border-bottom: none !important;
+  cursor: pointer !important;
+  border-radius: 0 !important
+}
+
+.btn-dangky-dis {
+  position: relative !important;
+  display: inline-block !important;
+  font-size: 16px !important;
+  line-height: 50px !important;
+  padding: 0 60px !important;
+  background: #ff9c96 !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  transition: all .5s ease 0s !important;
+  margin: 0 !important;
+  color: #fff !important;
+  border: none !important;
+  border-bottom: none !important;
+  cursor: pointer !important;
+  border-radius: 0 !important
+}
+
+.show-more {
+  padding-top: 10px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 9px;
+}
+
+.scrl-down-arrow {
+  display: block;
+  color: #000;
+  transform: rotate(90deg);
+  font-size: 16px;
+  line-height: 18px;
+  padding-top: 3px;
+}
+
+.scrl-down-arrow {
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
+}
+
+@-webkit-keyframes action {
+  0% {
+    transform: translateY(-5);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.main {
+  padding: 30px 25px 150px;
+}
+
+.ctn {
+  padding: 15px 0 22px;
+}
+
+.ic-img {
+  background-image: url('https://www.zohowebstatic.com/sites/default/files/crm/gcrm-sprite.svg');
+  display: inline-block;
+}
+
+.icon span {
+  margin-bottom: 30px;
+  margin-left: 5px;
+}
+
+.amazon {
+  background-position: -20px -5px;
+  width: 105px;
+  height: 55px;
+}
+
+.abu {
+  background-position: -140px -5px;
+  width: 105px;
+  height: 55px;
+}
+
+.suzuki {
+  background-position: -270px -5px;
+  width: 105px;
+  height: 55px;
+}
+
+.ctrls {
+  background-position: -390px -5px;
+  width: 105px;
+  height: 55px;
+}
+
+.iifl {
+  background-position: -520px -5px;
+  width: 105px;
+  height: 55px;
+}
+
+.net {
+  background-position: -20px -75px;
+  width: 105px;
+  height: 55px;
+}
+
+.proper {
+  background-position: -150px -75px;
+  width: 105px;
+  height: 55px;
+}
+
+.ducati {
+  background-position: -260px -75px;
+  width: 105px;
+  height: 55px;
+}
+
+.ola {
+  background-position: -390px -75px;
+  width: 105px;
+  height: 55px;
+}
+
+.hostar {
+  background-position: -500px -75px;
+  width: 105px;
+  height: 55px;
+}
+
+.banner .ctn h4 {
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-family: ProximaNova-Bold;
+}
+
+.noi_dung {
+  /* padding-top: 75px; */
+  /* max-width: 1120px;*/
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+.noi_dung .nd_trai {
+  /* display: inline-block; */
+  /* width: 65%; */
+  padding-right: 11%
+}
+
+.form_phai {
+  width: 100%;
+  padding-left: 4% !important;
+  padding-right: 0 !important;
+}
+
+.check_agree {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.check_agree label {
+  position: absolute;
+  font-size: 11px;
+  display: block;
+}
+
+@media only screen and (max-width: 577px) {
+  .mid {
+    padding: 0;
+    position: relative;
+  }
+  .main {
+    padding: 30px 25px 300px;
+    position: relative;
+  }
+  .banner {
+    padding-top: 20px;
+  }
+  .ctn .icon {
+    text-align: center;
+    margin: 0 10px 10px;
+  }
+  .mid span .header1 {
+    text-align: center;
+  }
+  /* .form_phai {
+    width: 100%;
+    padding-left: 4% !important;
+  } */
+  .noi_dung .nd_trai {
+    display: inline-block;
+    width: 100% !important;
+    padding: 0;
+  }
+  .tieu_de {
+    font-size: 32px!important;
+    line-height: 42px!important;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .nd_trai hr {
+    display: none;
+    padding: 25px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .banner .ctn h4 {
+    text-align: center
+  }
+  .head {
+    text-align: center;
+    margin: 0;
+  }
+  .mo_ta {
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .ctn {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .anh-nen {
+    display: none;
+  }
+  .header1 {
+    text-align: center
+  }
+  .mid {
+    padding: 0;
+    position: relative;
+  }
+  .main {
+    padding: 30px 25px 300px;
+    position: relative;
+  }
+  .banner {
+    padding-top: 20px;
+  }
+  .ctn .icon {
+    text-align: center;
+    margin: 0 10px 10px;
+  }
+  .mid span .header1 {
+    text-align: center;
+  }
+  .noi_dung .nd_trai {
+    display: inline-block;
+    width: 100% !important;
+    padding: 0;
+  }
+  .tieu_de {
+    font-size: 32px!important;
+    line-height: 42px!important;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0 20%;
+  }
+  .nd_trai hr {
+    display: none;
+    padding: 25px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .banner .ctn h4 {
+    text-align: center
+  }
+  .head {
+    text-align: center;
+    margin: 0;
+  }
+  .mo_ta {
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .ctn {
+    display: none;
+  }
+  .form_phai {
+    padding: 0 20% !important;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .anh-nen {
+    display: none;
+  }
+  .mid {
+    padding: 0;
+    position: relative;
+  }
+  .main {
+    padding: 30px 25px 300px;
+    position: relative;
+  }
+  .banner {
+    padding-top: 20px;
+  }
+  .ctn .icon {
+    text-align: center;
+    margin: 0 10px 10px;
+  }
+  .noi_dung .nd_trai {
+    display: inline-block;
+    width: 100% !important;
+    padding: 0;
+  }
+  .tieu_de {
+    font-size: 50px!important;
+    line-height: 56px!important;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0 15%;
+  }
+  .nd_trai hr {
+    display: none;
+    padding: 25px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .banner .ctn h4 {
+    text-align: center
+  }
+  .head {
+    text-align: center;
+    margin: 0;
+  }
+  .mo_ta {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: ProximaNova-Regular;
+    margin-bottom: 40px !important;
+  }
+  .ctn {
+    display: none;
+  }
+  .form_phai {
+    padding: 0 20% !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+  .tieu_de {
+    font-size: 50px;
+    line-height: 56px;
+    font-family: ProximaNova-Extrabold;
+    padding-bottom: 15px;
+  }
+  .banner{
+    padding-top: 75px;
+  }
+}
+
+/* @media only screen and (max-width: 900px) {
+  .card-gt blockquote {
+    padding: 0rem!important;
+  }
+  .anh-nen {
+    display: none;
+  }
+  .giai-thuong {
+    padding: 30px 25px 0;
+    margin: 20px 0 70px;
+  }
+  .giai-thuong .gt-text {
+    padding-left: 15px;
+    padding-bottom: 20px;
+  }
+  .giai-thuong .gt-img2 {
+    text-align: center;
+    max-width: none;
+    display: block;
+  }
+  .giai-thuong .gt-img2 .hinh-gt {
+    margin-top: 0 !important
+  }
+} */
+
+.check .form-check-label {
+  font-size: 13px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: left;
+  font-family: ProximaNova-Semibold, Arial, Helvetica, sans-serif;
+  line-height: 19px
+}
+
+.check .checkbox {
+  width: 14px;
+  height: 20px;
+}
+
+.logo-sec {
+  display: inline-block;
+  vertical-align: middle;
+  width: 130px;
+  padding: 0 7px 0 5px;
+}
+
+.logo-text {
+  color: #333;
+  display: inline-block;
+  vertical-align: top;
+  text-transform: uppercase;
+  font-size: 27px;
+  letter-spacing: 1px;
+  margin-top: 7px;
+  line-height: 23px;
+  font-family: ProximaNova-Semibold
+}
+
+/* @media only screen and(max-width: 1460px) {
+  .anh-nen {
+    position: absolute;
+    width: 95%;
+  }
+}
+
+.ac-title {
+  font-size: 45px;
+  font-family: ProximaNova-Semibold;
+}
+
+.ac-text {}
+
+.btn-ok {
+  width: 115px;
+  padding: 10px;
+} */

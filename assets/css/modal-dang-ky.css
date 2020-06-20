@@ -1,0 +1,20 @@
+.ReactModal__Body--open {
+    overflow: hidden;
+}
+
+.modal-title {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+.input-modal {
+    width: 500px;
+    padding: 10px;
+    outline: auto;
+    margin: 10px;
+}
+
+.modal-footer {
+    text-align: center;
+}
