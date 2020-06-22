@@ -25,14 +25,8 @@ export default class extends Component<any, any> {
   render() {
     return (
       <Layout title={this.props.title} {...this.props.layoutProps}>
-        <div className="site-wrap text-black">
-          <div className="intro-section " id="home-section">
-            <div className="container">
-              <div className="full">
-                <img src="assets/img/bg.gif" alt="home" />
-              </div>
-            </div>
-          </div>
+        <div>
+            <img className="bg-home" src="assets/img/funny.gif" alt="home" />
         </div>
       </Layout>
     )
